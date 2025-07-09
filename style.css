@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, nav, footer,
+aside.left, aside.right, section {
+  background-color: #eee;
+  border: 5px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Middle layout */
+aside.left, section, aside.right {
+  float: left;
+  height: 200px;
+  padding-top: 80px;
+}
+
+aside.left,
+aside.right {
+  width: 20%;
+}
+
+section {
+  width: 60%;
+}
+
+/* Clear floats for footer */
+footer {
+  clear: both;
+}
